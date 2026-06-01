@@ -28,7 +28,7 @@ Open this link in the browser: <https://github.com/enterprises/skillable-events/
 
 ## 4. Log in to GitHub Copilot CLI
 
-Enter the following command to start Copilot CLI:
+Enter the following command to start GitHub Copilot CLI:
 
 ```bash
 copilot
