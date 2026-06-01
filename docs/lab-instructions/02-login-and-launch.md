@@ -24,7 +24,7 @@ Select the Azure account from the previous step and complete authentication.
 
 ## 3. Log in to GitHub
 
-Open this link in the browser: <https://github.com/enterprises/skillable-events/sso>. Select **Continue** when prompted to single sign-on to Skillable Events. Select the Azure account you just authenticated to. Follow the prompts to complete authentication.
+Open this link in the browser: <a href="https://github.com/enterprises/skillable-events/sso" target="_blank" rel="noopener noreferrer">https://github.com/enterprises/skillable-events/sso</a>. Select **Continue** when prompted to single sign-on to Skillable Events. Select the Azure account you just authenticated to. Follow the prompts to complete authentication.
 
 ## 4. Log in to GitHub Copilot CLI
 
