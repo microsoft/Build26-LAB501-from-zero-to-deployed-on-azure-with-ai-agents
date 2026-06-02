@@ -56,17 +56,17 @@ When prompted what account do you want to log into, select GitHub.com. Copilot w
    /plugin install azure@azure-skills
    ```
 
-   > 💡 **Tip:** To update the plugin later, run:
-   > ```
-   > /plugin update azure@azure-skills
-   > ```
-
 3. Reload Azure MCP:
    ```
    /mcp reload
    ```
 
 > 💡 **MCP tools vs. Azure skills:** The Azure MCP server provides **MCP tools** — low-level operations like listing resources, querying logs, and managing deployments. Azure **skills** are higher-level prompt instructions that chain these tools together with domain knowledge (e.g., `azure-diagnostics` knows how to follow a triage reasoning chain). This lab uses both: skills drive the workflow, MCP tools execute the Azure operations.
+
+> 💡 **Tip:** To update the plugin later, run:
+> ```
+> /plugin update azure@azure-skills
+> ```
 
 ✅ **Checkpoint:** You're logged into GitHub and Azure, Copilot CLI is running, Azure skills and Azure MCP Server are installed.
 
