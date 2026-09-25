@@ -11,8 +11,22 @@ If you're not already in the **lego-set-browser** directory, cd into it, then us
 ```
 copilot --yolo
 ```
+The `--yolo` flag auto-approves commands and skips confirmation prompts — safe here because the lab runs in a sandboxed environment, and it can save you several minutes over the course of the lab. 
 
-The `--yolo` flag auto-approves commands and skips confirmation prompts — safe here because the lab runs in a sandboxed environment, and it can save you several minutes over the course of the lab. Then, say to Copilot:
+To ensure all participants of the lab to have a consistent lab experience, disable **azure-app-onboard-prereq** and **azure-app-onboard** skills. Say to Copilot:
+
+``` 
+/skills
+```
+1. Use the arrow keys to navigate to **azure-app-onboard-prereq** and **azure-app-onboard**.
+
+2. Press **Enter** on each skill and select **Disable**.
+
+3. Verify that a **gray dot** appears next to each skill, indicating it is disabled.
+
+4. Press **Esc** to exit the Skills Manager.
+
+Then say to Copilot:
 
 ```
   Create and deploy 2 Azure services 
