@@ -40,6 +40,8 @@ Watch the triage chain:
 
 ## Apply the Fix
 
+> Skip this step if Copilot already recovered the endpoint in the previous attempt to diagnose the issue.
+
 Run the suggested fix command. It will be something like:
 
 ```powershell
