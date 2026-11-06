@@ -8,7 +8,7 @@ Open a terminal — use the shortcut (Ctrl + Shift + 4) to open PowerShell — a
 az login
 ```
 
-When the sign-in pop-up shows up, select **Work or school account** and select **Continue**. Input the username found in the **Resources** tab of your Skillable VM by clicking on the keyboard icon and select **Next**. Then, input the TAP found in the same tab by clicking on the keyboard icon to complete sign-in. On the **Sign in to all apps and websites on this device?** dialog, click **Yes**.
+When the sign-in pop-up shows up, select **Work or school account** and select **Continue**. Input the username found in the **Resources** tab of your Skillable VM by clicking on the keyboard icon and select **Next**. Then, input the TAP found in the same tab by clicking on the keyboard icon to complete sign-in. On the **Sign in to all apps and websites on this device?** dialog, click **Yes**. When the **Account added to this device** window appears, select **Done** to close the window and return to the terminal.
 
 When the terminal prompts you for subscription selection, hit **Enter** for no changes.
 
