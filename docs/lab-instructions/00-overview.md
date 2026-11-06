@@ -107,9 +107,8 @@ graph TB
 | 1 | `azure-prepare` | Handles two starting points in one pass: wraps IaC + config around the existing Flask source code (Container Apps) **and** fetches a Python Azure Functions template and tailors it to the prompt (Flex Consumption) | 1A: Ship |
 | 2 | `azure-validate` | Pre-flight checks: Bicep compilation, Docker status (Container Apps), Python runtime + Flex Consumption availability (Functions), subscription access | 1A: Ship |
 | 3 | `azure-deploy` | Runs `azd up` — provisions infrastructure + builds + deploys both services (Flask Container App and Python Function App) | 1A: Ship |
-| 4 | `azure-rbac` | Finds least-privilege roles from Azure docs, generates assignment commands | 1B: Harden |
-| 5 | `azure-resource-visualizer` | Queries Resource Graph, maps relationships, generates Mermaid diagrams | 2: See |
-| 6 | `azure-diagnostics` | Pulls system logs, follows diagnostic reasoning chain to root cause; writes KQL queries, creates alert rules | 3: Break, 4: Investigate |
+| 4 | `azure-resource-visualizer` | Queries Resource Graph, maps relationships, generates Mermaid diagrams | 2: See |
+| 5 | `azure-diagnostics` | Pulls system logs, follows diagnostic reasoning chain to root cause; writes KQL queries, creates alert rules | 3: Break, 4: Investigate |
 
 > 📖 **Glossary:** **ACR** = Azure Container Registry (private Docker image store). **AZD** = Azure Developer CLI (`azd`). **Bicep** = Azure's IaC language. **Cosmos DB** = Azure's globally distributed NoSQL database. **KQL** = Kusto Query Language (for log queries). **MCP** = Model Context Protocol.
 
