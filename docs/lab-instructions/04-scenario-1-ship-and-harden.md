@@ -11,7 +11,7 @@ If you're not already in the **lego-set-browser** directory, cd into it, then us
 ```
 copilot --yolo
 ```
-The `--yolo` flag auto-approves commands and skips confirmation prompts — safe here because the lab runs in a sandboxed environment, and it can save you several minutes over the course of the lab. 
+The `--yolo` flag auto-approves commands and skips confirmation prompts — safe here because the lab runs in a sandboxed environment, and it can save you several minutes over the course of the lab. If Copilot CLI displays **Please use /login to sign in to use Copilot** run **/login** and complete the sign-in process before continuing to **/skills**.
 
 To ensure all participants of the lab to have a consistent lab experience, disable **azure-app-onboard-prereq** and **azure-app-onboard** skills. Say to Copilot:
 
